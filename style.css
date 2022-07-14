@@ -1,0 +1,308 @@
+
+
+.heading{
+  position: static;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  top: 10%; left: 15%;
+}
+
+.heading .info .text1, .text2, .text3, .text4
+{
+
+    font-size: 2rem;
+    color: indianred;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.heading .img img{
+    object-fit: contain;
+    margin-left: 13rem;
+    border-radius: 5rem;
+}
+
+.heading .info .text1{
+  font-size: 4rem;
+}
+
+.middlesection{
+  background-color: indianred;
+}
+
+.middleheading h2{
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  text-align: center;
+  column-gap: 10rem;
+  justify-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.row{
+
+  background: #dde1e7;
+  border-radius: 6px;
+  box-shadow: 3px 3px 7px #ffffffb0, inset 5px 5px 5px rgba(94, 104, 121, 0.945);
+}
+
+.row h3{
+  font-size: 5.5vh;
+  color: indianred;
+  font-weight: 900;
+}
+
+.ios{
+  box-shadow: 15px 15px 15px 15px hsl(0deg 0% 0% / 0.5);
+  padding: 20px 20px 20px 20px;
+}
+
+.android{
+  box-shadow: 15px 15px 15px 15px hsl(0deg 0% 0% / 0.5);
+  padding: 20px 20px 20px 20px;
+}
+
+.laptop{
+  box-shadow: 15px 15px 15px 15px hsl(0deg 0% 0% / 0.5);
+  padding: 20px 20px 20px 20px;
+}
+
+.heading .info .btn1{
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    color:IndianRed;
+    font-size: 1rem;
+    font-weight: bolder;
+    background: white;
+    border: .1rem solid indianred;
+    border-radius: .3rem;
+    max-width: 20rem;
+    margin-top: 2.5rem;
+}
+
+.heading .info .btn2{
+    padding: 1.1rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    font-weight: bolder;
+    background: indianred;
+    border: .1rem solid white;
+    border-radius: .3rem;
+    margin-top: 2.5rem;
+    max-width: 20rem;
+
+}
+
+
+.heading .info .btn2:hover{
+    padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    background: #1C2833;
+    border: .1rem solid #1C2833;
+    border-radius: .3rem;
+    max-width: 20rem;
+    transition: .8s;
+}
+
+.heading .info .btn1:hover{
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    color:white;
+    font-size: 1rem;
+    background: #1C2833;
+    border: .1rem solid #1C2833;
+    border-radius: .3rem;
+    max-width: 20rem;
+    transition: .8s;
+}
+
+
+.easybuy{
+  background-color: indianred;
+  position: static;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  top: 10%; left: 15%;
+}
+
+.easybuy .buy .text01, .text02, .text03, .text04
+{
+
+    font-size: 2rem;
+    color: white;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.easybuy .img img{
+    object-fit: contain;
+    margin-left: 13rem;
+    border-radius: 0rem;
+}
+
+.easybuy .buy .text01 {
+  font-size: 6rem;
+  color: yellow;
+  text-decoration: underline;
+}
+
+.easybuy .buy .text02, .text03, .text04{
+text-align: center;
+}
+
+.ctasection{
+  position: relative;
+    display: grid;
+    background: indianred;
+    top: 2rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 15rem;
+}
+
+.ctasection .ctabox
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.ctasection h1 {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+.ctasection h1 span{
+  border-bottom: .3rem solid white;
+}
+
+.ctasection .ctabox
+{
+    position: relative;
+    top: 10rem;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.ctasection .ctabox .ctaboxform
+{
+  position: relative;
+display: grid;
+justify-content: center;
+justify-items: center;
+align-items: center;
+}
+
+.ctasection .ctabox .ctaboxform .form1
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.ctasection .ctabox .ctaboxform .form1 input{
+  border: .1rem solid white;
+  width: 20rem; height: 2rem;
+  background-color: rgba(255, 0, 0, 0.1);
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  color: white;
+  padding: .5rem;
+  letter-spacing: .05rem;
+}
+
+.ctasection .ctabox .ctaboxform .form1 input::placeholder{
+  color: white;
+  padding: .5rem;
+  letter-spacing: .05rem;
+}
+
+.ctasection .ctabox .ctaboxform .btn3{
+  padding: .9rem 2.5rem;
+    text-transform: uppercase;
+    color:indianred;
+    font-size: 1rem;
+    background:white;
+    border-radius: .3rem;
+    margin-top: 2rem; margin-right: 27rem;
+    max-width: 20rem;
+    cursor: pointer;
+}
+
+.ctasection .ctabox .ctaboxform .btn3:hover{
+  background-color: #1C2833;
+    color: yellow;
+}
+
+.ctasection .ctabox .ctaboxform .form2 textarea{
+  border: .1rem solid white;
+    width: 41rem; height: 10rem;
+    background-color:rgba(255, 0, 0, 0.1);
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    padding: .5rem;
+    letter-spacing: .05rem;
+}
+
+.ctasection .ctabox .ctaboxinfo
+{
+    position: relative;
+    bottom: .9rem;
+    display: grid;
+    line-height: 2.3;
+    padding-left: 3rem;
+    max-width: 30rem;
+}
+
+.ctasection .ctabox .ctaboxinfo h2{
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.ctasection .ctabox .ctaboxinfo p{
+  font-size: 1.1rem;
+  color: white;
+}
+
+.ctasection .ctabox .ctaboxinfo p ion-icon{
+  font-size: 1.2rem;
+  color: white;
+  padding-right: 1.5rem;
+}
